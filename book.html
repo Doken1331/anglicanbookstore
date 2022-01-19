@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr" class="com_content view-article itemid-101 home j38 mm-hover">
+
+<head>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="author" content="Super User">
+    <meta name="generator" content="Joomla! - Open Source Content Management">
+    <title>Building Efficient SCRUM</title>
+    <script src="js/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
+    <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="https://livedemo00.template-help.com/joomla_prod-13675/index.php/component/search/?Itemid=101&amp;catid=73&amp;id=174&amp;format=opensearch" rel="search" title="Search Wilbur Smith" type="application/opensearchdescription+xml">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/chosen.css" rel="stylesheet" type="text/css">
+    <link href="css/template.css" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="css/css_1.css" rel="stylesheet" type="text/css">
+    <link href="css/system.css" rel="stylesheet" type="text/css">
+    <link href="css/megamenu.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/material-design.css" rel="stylesheet" type="text/css">
+    <link href="css/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/thin.css" rel="stylesheet" type="text/css">
+    <link href="css/glyphicons.css" rel="stylesheet" type="text/css">
+    <link href="css/linearicons.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-noconflict.js" type="text/javascript"></script>
+    <script src="js/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/chosen.jquery.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/jquery.tap.min.js" type="text/javascript"></script>
+    <script src="js/script_1.js" type="text/javascript"></script>
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/nav-collapse.js" type="text/javascript"></script>
+    <script src="js/slogin.min.js" type="text/javascript"></script>
+    <script src="js/jquery.cookies.js" type="text/javascript"></script>
+    <script src="js/style_switcher_demo.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(".hasTooltip").tooltip({
+                "html": true,
+                "container": "body"
+            });
+        });
+        jQuery(function($) {
+            initChosen();
+            $("body").on("subform-row-add", initChosen);
+
+            function initChosen(event, container) {
+                container = container || document;
+                $(container).find("select").chosen({
+                    "disable_search_threshold": 10,
+                    "search_contains": true,
+                    "allow_single_deselect": true,
+                    "placeholder_text_multiple": "Type or select some options",
+                    "placeholder_text_single": "Select an option",
+                    "no_results_text": "No results match"
+                });
+            }
+        });
+
+        var path = "templates/theme3543/js/";;
+        (function($) {
+            $(document).ready(function() {
+                var o = $("#back-top");
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        o.fadeIn()
+                    } else {
+                        o.fadeOut()
+                    }
+                });
+                var $scrollEl = ($.browser.mozilla || $.browser.msie) ? $("html") : $("body");
+                o.find("a").click(function() {
+                    $scrollEl.animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false
+                })
+            })
+        })(jQuery);
+
+
+        ;
+        (function($) {
+            $(window).load(function() {
+                $(document).on("click touchmove", function(e) {
+
+                        var container = $("#t3-mainnav .t3-navbar-collapse");
+                        if (!container.is(e.target) &&
+                            container.has(e.target).length === 0 && container.hasClass("in")) {
+                            $("#t3-mainnav .t3-navbar-collapse").toggleClass("in")
+                        }
+                    })
+                    // check we miss any nav
+                if ($(window).width() < 768) {
+                    $('.t3-navbar-collapse ul.nav').has('.dropdown-menu').t3menu({
+                        duration: 100,
+                        timeout: 50,
+                        hidedelay: 100,
+                        hover: false,
+                        sb_width: 20
+                    });
+                }
+            });
+        })(jQuery);
+
+
+        ;
+        (function($) {
+            $(document).ready(function() {
+                var o = $('a[href="#modal"]');
+                if (o.length > 0) {
+                    o.attr("data-toggle", "modal").attr("data-target", "#modal");
+                }
+                o.click(function(e) {
+                    e.preventDefault();
+                    $("#modal").addClass('in');
+                    setInterval(function() {
+                        $("#modal #searchword").focus();
+                    }, 0);
+                });
+
+                $(".modalClose").on("click", function() {
+                    $(this).parent("#modal").removeClass("in");
+                });
+            });
+        })(jQuery);;
+        (function($) {
+            $(document).ready(function() {
+                $(".moduletable#module_211>i.fa-user").click(function() {
+                    $(".moduletable#module_211").toggleClass("shown")
+                })
+            })
+        })(jQuery);
+        jQuery(function($) {
+            $("#style_switcher .toggler").click(function() {
+                $("#style_switcher").toggleClass("shown")
+            });
+            $("#style_switcher").style_switcher("/joomla_prod-13675/templates/theme3543/local/css/themes/", "/joomla_prod-13675")
+        });
+    </script>
+
+
+
+
+
+    <!-- Le HTML5 shim and media query for IE8 support -->
+    <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script type="text/javascript" src="/joomla_prod-13675/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+    <!-- You can add Google Analytics here or use T3 Injection feature -->
+
+    <link href="css/css_2.css" rel="stylesheet">
+</head>
+
+
+<body class="body__home option-com_content view-article task- itemid-101">
+    <div id="color_preloader">
+        <div class="loader_wrapper">
+            <div class="uil-spin-css">
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <p>Loading color scheme</p>
+        </div>
+    </div>
+    <div class="flex-wrapper">
+        <div class="t3-wrapper">
+            <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+
+            <!-- top -->
+
+            <!-- //top -->
+
+
+
+            <!-- HEADER -->
+            <header id="t3-header" class="t3-header">
+                <div class="t3-header-wrapper stuck-container">
+                    <div class="container ">
+                        <div class="row">
+
+                            <!-- LOGO -->
+                            <div class="col-sm-3">
+                                <div class="logo">
+                                    <div class="logo-image">
+                                        <a href="https://livedemo00.template-help.com/joomla_prod-13675/" title="Wilbur Smith">
+                                            <img class="logo-img" src="images/logo.png" alt="Wilbur Smith">
+                                            <span>Wilbur Smith</span>
+                                        </a>
+                                        <small class="site-slogan"></small>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //LOGO -->
+
+
+
+                            <div class="col-sm-6">
+                                <nav id="t3-mainnav" class="navbar navbar-mainmenu t3-mainnav">
+                                    <div class="t3-mainnav-wrapper">
+                                        <!-- Brand and toggle get grouped for better mobile display -->
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+										<i class="fa fa-bars"></i>Home									</button>
+
+
+                                        </div>
+
+                                        <div class="t3-navbar t3-navbar-collapse navbar-collapse collapse">
+                                            <div class="t3-megamenu animate fading" data-duration="400" data-responsive="true">
+                                                <ul itemscope itemtype="https://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+                                                    <li itemprop="name" class="current dropdown mega mega-align-center" data-id="101" data-level="1" data-alignsub="center">
+                                                        <a itemprop="url" class="fullwidth dropdown-toggle" href="index.html">Home</a>
+                                                    </li>
+                                                    <li itemprop="name" data-id="584" data-level="1">
+                                                        <a itemprop="url" class href="author.html" data-target="#">About the author</a>
+
+                                                    </li>
+
+
+                                                    <li itemprop="name" data-id="203" data-level="1">
+                                                        <a itemprop="url" class="gallery" href="book.html" data-target="#">About the book</a>
+
+                                                    </li>
+                                                    <li itemprop="name" data-id="142" data-level="1">
+                                                        <a itemprop="url" class href="contacts.html" data-target="#">Contacts </a>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+
+
+                            <div class="moduletable social-menu  col-sm-3">
+                                <div class="module_container">
+                                    <ul class="nav menu social-menu">
+                                        <li class="item-150">
+                                            <a href="#" title="Twitter" class="fa fa-twitter"></a>
+                                        </li>
+                                        <li class="item-148">
+                                            <a href="#" title="Facebook" class="fa fa-facebook"></a>
+                                        </li>
+                                        <li class="item-280">
+                                            <a href="#" title="Pinterest" class="fa fa-pinterest"></a>
+                                        </li>
+                                        <li class="item-152">
+                                            <a href="#" title="Instagram" class="fa  fa-instagram"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- //HEADER -->
+
+
+
+            <div id="t3-mainbody" class="t3-mainbody">
+
+
+                <div class="container">
+                    <div class="row">
+                        <!-- MAIN CONTENT -->
+                        <div id="t3-content" class="t3-content col-sm-12">
+
+
+
+                            <article class="page-item 123 page-item__home">
+                                <header class="item_header">
+                                    <h3 class="item_title"><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Building</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Efficient</span>
+                                        <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">SCRUM</span>
+                                    </h3>
+                                </header>
+                                <figure class="item_img img-full img-full__left item-image">
+                                    <img src="images/page1_book2.png" alt>
+                                </figure>
+                                <div class="item_fulltext">
+                                    <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span> <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+
+                                    <p>After publishing his latest book “Learn How to Fire the Wrong People” in 2014, Wilbur took part in the interview where he told he’s taking a break from writing. However, in early 2016 he announced that he has finished
+                                        working on his new book, which will be entitled “Makers and Takers”. A few fragments from the book were published on his website.After its publishing in summer 2016, the book became an instant best seller.</p>
+                                </div>
+
+
+                                <!-- Social Sharing -->
+                                <div class="addthis_sharing_toolbox"></div>
+                                <div class="addthis_inline_share_toolbox"></div>
+                                <script type="text/javascript">
+                                    var addthis_config = {
+                                        pubid: "ra-5497f2254123130b"
+                                    }
+                                </script>
+                                <script type="text/javascript" src="js/addthis_widget.js"></script>
+                                <!-- Pagination -->
+                            </article>
+
+
+                        </div>
+                        <!-- //MAIN CONTENT -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="t3-footer" class="wrap t3-footer">
+
+            <div class="footer-1 wrap t3-sl t3-sl-footer-1 ">
+                <div class="container ">
+                    <div class="row">
+                        <div class="moduletable about_footer  col-sm-4">
+                            <div class="module_container">
+                                <div class="mod-article-single mod-article-single__about_footer" id="module_254">
+                                    <div class="item__module" id="item_169">
+                                        <!-- Intro Image -->
+                                        <figure class="item_img img-intro img-intro__">
+                                            <img src="images/logo_footer.png" alt>
+                                        </figure>
+
+                                        <!-- Intro Text -->
+                                        <div class="item_introtext">
+                                            <p>South African writer whose novels about lionhearted heroes, greedy family dynasties, passionate lovers, cold-blooded pirates and big game hunters have sold over 140 million copies in 30 languages.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="moduletable footer_contacts  col-sm-3 col-sm-offset-2">
+                            <div class="module_container">
+                                <div class="page_header">
+                                    <h4 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Get</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">in</span> <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Touch</span></h4>
+                                </div>
+
+                                <div class="custom footer_contacts">
+                                    <i class="linearicons-telephone"></i>
+                                    <div class="address">
+                                        <p class="tel"><a href="tel:+14099875874">+1 (409) 987–5874</a></p>
+                                        <p><a href="mailto:info@demolink.org">info@demolink.org</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="moduletable footer_contacts  col-sm-3">
+                            <div class="module_container">
+                                <div class="page_header">
+                                    <h4 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Address</span></h4>
+                                </div>
+
+                                <div class="custom footer_contacts">
+                                    <i class="linearicons-map-marker"></i>
+                                    <div class="address">
+                                        <p>Washington 6036 Richmond hwy., Alexandria, VA USA 22303</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="wrap t3-sl t3-sl-footer ">
+                <div class="container">
+                    <div class="row">
+
+
+
+                        <div class="copyright col-sm-12">
+                            <div class="bord"></div>
+                            <span class="siteName">Wilbur Smith</span>
+                            <span class="copy">&copy;</span>
+                            <span class="year">2022.</span>
+                            <a class="privacy_link" rel="license" href="privacy.html">
+	            Privacy Policy	        </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </footer>
+        <!-- //FOOTER -->
+    </div>
+
+
+    <div id="back-top">
+        <a href="#"><span></span></a>
+    </div>
+    <div class="container">
+        <div id="modal" class="modal fade loginPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <button type="button" class="close modalClose" data-dismiss="modal">×</button>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="moduletable modal_search ">
+                        <div class="module_container">
+                            <div role="search" class="mod-search mod-search__modal_search">
+                                <form action="/joomla_prod-13675/index.php" method="post" class="navbar-form">
+                                    <label for="searchword" class="element-invisible">Search ...</label> <input id="searchword" name="searchword" maxlength="200" class="inputbox mod-search_searchword" type="text" size="20" placeholder="Search ..." required>                                    <button class="button btn btn-primary" onclick="this.form.searchword.focus();"><i class="fa fa-search"></i> </button> <input type="hidden" name="task" value="search">
+                                    <input type="hidden" name="option" value="com_search">
+                                    <input type="hidden" name="Itemid" value="101">
+                                </form>
+                                <!-- <i class="fa fa-times"></i> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Google Tag Manager --><noscript><iframe src="ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P9FT69');
+    </script>
+    <!-- End Google Tag Manager -->
+</body>
+
+</html>
