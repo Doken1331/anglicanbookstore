@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb" dir="ltr" class="com_content view-category layout-theme3543category itemid-101 home j38 mm-hover">
+<html lang="it" dir="ltr" class="com_content view-category layout-theme3543category itemid-101 home j38 mm-hover">
 
 <head>
     <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +9,9 @@
     <meta name="generator" content="Joomla! - Open Source Content Management">
     <title>Wilbur Smith</title>
 
-    <link href="https://livedemo00.template-help.com/joomla_prod-13675/index.php/component/search/?layout=theme3543:category&amp;id=2&amp;Itemid=101&amp;format=opensearch" rel="search" title="Search Wilbur Smith" type="application/opensearchdescription+xml">
+    <link href="https://livedemo00.template-help.com/joomla_prod-13675/index.php/component/search/?layout=theme3543:category&amp;id=2&amp;Itemid=101&amp;format=opensearch" rel="search" title="Cerca Wilbur Smith" type="application/opensearchdescription+xml">
     <link href="/joomla_prod-13675/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0">
-    <link href="/joomla_prod-13675/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0">
+    <link href="/joomla_prod-13675/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atomo 1.0">
     <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="assets/css/chosen.css" rel="stylesheet" type="text/css">
@@ -184,77 +184,7 @@
             });
             $("#style_switcher").style_switcher("/joomla_prod-13675/templates/theme3543/local/css/themes/", "/joomla_prod-13675")
         });
-
-        ;
-        (function($) {
-
-
-            Video_262 = function() {
-                if ($('#bg_video_262').length) {
-
-                    if (!$('body').hasClass('mobile_mode')) {
-
-                        $('#bg_video_262').YTPlayer();
-                        $('#bg_video_262.bg_video').css('background-image', 'url("/joomla_prod-13675/images/home/bg_video.jpg")');
-                        $.mbYTPlayer.controls = {
-                            play: "&#xf04b;",
-                            pause: "&#xf04c;",
-                            mute: "&#xf028;",
-                            unmute: "&#xf026;",
-                            onlyYT: "O",
-                            showSite: "R",
-                            ytLogo: "Y"
-                        };
-
-                        $('#bg_video_262').on("YTPReady", function() {
-
-                            $('#bg_video_262 #bg_video__content').removeClass('off');
-                            $('#bg_video_262 #bg_video__overlay').addClass('off');
-                            $('#bg_video_262 #controlBar_bg_video_262').addClass('off');
-
-                            $('<span class="player_close ytpicon">&#xf00d;</span>').insertBefore('#bg_video_262 .mb_YTPUrl').on('click', function() {
-                                $('#bg_video_262 #bg_video__content').removeClass('off');
-                                $('#bg_video_262 #controlBar_bg_video_262').addClass('off');
-                                $('#bg_video_262').YTPPause().YTPMute();
-                                $('#bg_video_262.bg_video #bg_video__btn').html('');
-                                $('#bg_video_262.bg_video .mbYTP_wrapper').css('opacity', '0');
-                                $('#bg_video_262.bg_video').css('background-image', 'url("/joomla_prod-13675/images/home/bg_video.jpg")');
-                            });
-
-                            $('#bg_video_262 .mb_YTPUrl').on('click', function() {
-                                $('#bg_video_262').YTPPause();
-                            });
-
-                            $('#bg_video_262 #bg_video__btn').on('click', function(e) {
-                                $('#bg_video_262 #bg_video__content').addClass('off content_hidden');
-                                $('#bg_video_262 #controlBar_bg_video_262').removeClass('off');
-                                $('#bg_video_262').YTPPlay().YTPUnmute();
-                                e.stopPropagation();
-                                $('#bg_video_262.bg_video .mbYTP_wrapper').css('opacity', '1');
-                            });
-
-                            $(document).on('click', '#bg_video_262 .content_hidden', function(e) {
-                                $('#bg_video_262 #controlBar_bg_video_262').addClass('off');
-                                $('#bg_video_262 #bg_video__content').removeClass('off content_hidden');
-                                $('#bg_video_262').YTPPause().YTPMute();
-                                $('#bg_video_262.bg_video .mbYTP_wrapper').css('opacity', '0');
-                                $('#bg_video_262.bg_video').css('background-image', 'url("/joomla_prod-13675/images/home/bg_video.jpg")');
-                                e.stopPropagation();
-                            });
-                        });
-                    } else {
-                        $('#bg_video_262.bg_video').css('background-image', 'url("/joomla_prod-13675/images/home/bg_video.jpg")');
-                        $('#bg_video_262 #bg_video__content').removeClass('off');
-                        $('#bg_video_262 #bg_video__btn, #bg_video__overlay').remove();
-                    };
-
-                };
-            };
-
-            $(window).load(function() {
-                Video_262();
-            });
-        })(jQuery);
+        (jQuery);
 
 
         ;
@@ -286,20 +216,6 @@
             })
         })(jQuery);
     </script>
-
-
-
-
-
-
-    <!-- Le HTML5 shim and media query for IE8 support -->
-    <!--[if lt IE 9]>
-<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script type="text/javascript" src="/joomla_prod-13675/plugins/system/t3/base-bs3/js/respond.min.js"></script>
-<![endif]-->
-
-    <!-- You can add Google Analytics here or use T3 Injection feature -->
-
     <link href="assets/css/css_2.css" rel="stylesheet">
 </head>
 
@@ -333,7 +249,11 @@
                     <div></div>
                 </div>
             </div>
-            <p>Loading color scheme</p>
+            <p>
+
+                Caricamento della combinazione di colori
+
+            </p>
         </div>
     </div>
     <div class="flex-wrapper">
@@ -377,29 +297,45 @@
                                         <!-- Brand and toggle get grouped for better mobile display -->
                                         <div class="navbar-header">
                                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
-										<i class="fa fa-bars"></i>Home									</button>
+										<i class="fa fa-bars"></i>Casa									</button>
 
 
                                         </div>
 
                                         <div class="t3-navbar t3-navbar-collapse navbar-collapse collapse">
                                             <div class="t3-megamenu animate fading" data-duration="400" data-responsive="true">
-                                                <ul itemscope itemtype="https://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+                                                <ul itemscope="" itemtype="https://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
                                                     <li itemprop="name" class="current dropdown mega mega-align-center" data-id="101" data-level="1" data-alignsub="center">
-                                                        <a itemprop="url" class="fullwidth dropdown-toggle" href="index.html">Home</a>
+                                                        <a itemprop="url" class="fullwidth dropdown-toggle" href="index.html">
+                                                            
+                                                                Casa
+                                                            
+                                                        </a>
                                                     </li>
                                                     <li itemprop="name" data-id="584" data-level="1">
-                                                        <a itemprop="url" class href="author.html" data-target="#">About the author</a>
+                                                        <a itemprop="url" class="" href="author.html" data-target="#">
+                                                            
+                                                                Circa l'autore
+                                                            
+                                                        </a>
 
                                                     </li>
 
 
                                                     <li itemprop="name" data-id="203" data-level="1">
-                                                        <a itemprop="url" class="gallery" href="book.html" data-target="#">About the book</a>
+                                                        <a itemprop="url" class="gallery" href="book.html" data-target="#">
+                                                            
+                                                                A proposito del libro
+                                                            
+                                                        </a>
 
                                                     </li>
                                                     <li itemprop="name" data-id="142" data-level="1">
-                                                        <a itemprop="url" class href="contacts.html" data-target="#">Contacts </a>
+                                                        <a itemprop="url" class="" href="contacts.html" data-target="#">
+                                                            
+                                                                Contatti 
+                                                            
+                                                        </a>
 
                                                     </li>
                                                 </ul>
@@ -446,20 +382,37 @@
                                     <div class="item__module" id="item_170">
                                         <!-- Intro Image -->
                                         <figure class="item_img img-intro img-intro__">
-                                            <img src="assets/images/page1_img1.png" alt>
-                                            <figcaption>Book</figcaption>
+                                            <img src="assets/images/page1_img1.png" alt="">
+                                            <figcaption>
+
+                                                Libro
+
+                                            </figcaption>
                                         </figure>
 
                                         <!-- Item Title -->
-                                        <h1 class="item-title">La guerra dei Courtney</h1>
+                                        <h1 class="item-title">
+
+                                            La guerra di Courtney
+
+                                        </h1>
 
                                         <!-- Intro Text -->
                                         <div class="item_introtext">
                                             <p>
-                                                Separati dalla guerra, a migliaia di miglia di distanza l'uno dall'altra, Saffron Courtney e Gerhard von Meerbach lottano per sopravvivere al conflitto che sta dilaniando l'Europa. Gerhard, ostile al regime nazista, è deciso a rimanere fedele ai propri
-                                                ideali nonostante tutto e combatte per la madrepatria nella speranza di poterla liberare, un giorno, da Hitler.
+
+
+                                                Separati dalla guerra, a migliaia di miglia di distanza l'uno dall'altra, Saffron Courtney e Gerhard von Meerbach lottano per sopravvivere al conflitto che sta dilaniando l'Europa. Gerhard, ostile al regime, è deciso a rimanere fedele ai propri ideali
+                                                nonostante tutto e combatte per la madrepatria nella speranza di poterla liberare, un giorno, da Hitler.
+
+
                                             </p>
-                                            <a class="btn" href="book.html">To learn more</a> </div>
+                                            <a class="btn" href="book.html">
+                                                
+                                                    Per saperne di più
+                                                
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -501,22 +454,31 @@
                         <div class="moduletable autor  col-sm-5">
                             <div class="module_container">
                                 <div class="page_header">
-                                    <h1 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Wilbur</span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">Smith</span></h1>
+                                    <h1 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Wilbur </span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">Smith</span></h1>
                                 </div>
                                 <div class="mod-article-single mod-article-single__autor" id="module_258">
                                     <div class="item__module" id="item_171">
                                         <!-- Item Title -->
-                                        <h5 class="item-title"><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">About</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">the</span>
-                                            <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Author</span>
+                                        <h5 class="item-title"><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Circa </span>
+                                            <span class="item_title_part_1 item_title_part_even item_title_part_first_half">
+                                                
+                                                    l' 
+                                                
+                                                </span>
+                                            <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">autore</span>
                                         </h5>
 
                                         <!-- Intro Text -->
                                         <div class="item_introtext">
                                             <p>
-                                                South African writer whose novels about lionhearted heroes, greedy family dynasties, passionate lovers, cold-blooded pirates and big game hunters have sold over 140 million copies in 30 languages.
+
+
+                                                Scrittore sudafricano i cui romanzi su eroi dal cuore di leone, avide dinastie familiari, amanti appassionati, pirati a sangue freddo e cacciatori di selvaggina hanno venduto oltre 140 milioni di copie in 30 lingue.
+
+
                                             </p>
                                         </div>
-                                        <a class="btn btn-info readmore" href="author.html"><span>To learn more</span></a> </div>
+                                        <a class="btn btn-info readmore" href="author.html"><span>Per saperne di più</span></a> </div>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +501,11 @@
 
                                             <!-- Introtext -->
                                             <div class="introtext">
-                                                Books </div>
+
+
+                                                Libri
+
+                                            </div>
 
                                             <!-- Read More link -->
                                         </div>
@@ -555,7 +521,11 @@
 
                                             <!-- Introtext -->
                                             <div class="introtext introtext_margin">
-                                                Instances</div>
+
+
+                                                Istanze
+
+                                            </div>
 
                                             <!-- Read More link -->
                                         </div>
@@ -571,7 +541,11 @@
 
                                             <!-- Introtext -->
                                             <div class="introtext">
-                                                Film scripts</div>
+
+
+                                                Sceneggiature di film
+
+                                            </div>
 
                                             <!-- Read More link -->
                                         </div>
@@ -594,7 +568,7 @@
                     <div class="moduletable other_books  col-sm-12">
                         <div class="module_container">
                             <div class="page_header">
-                                <h1 class="moduleTitle center pret"><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Other</span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">Books</span></h1>
+                                <h1 class="moduleTitle center pret"><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Altri </span> <span class="item_title_part_1 item_title_part_even item_title_part_second_half item_title_part_last">libri</span></h1>
                             </div>
                             <div class="mod-newsflash-adv mod-newsflash-adv__other_books cols-3" id="module_265">
                                 <div class="row">
@@ -604,17 +578,24 @@
                                             <!-- Intro Image -->
                                             <figure class="item_img img-intro img-intro__">
                                                 <a href="book-1.html">
-                                                    <img src="assets/images/book-1.jpg" alt>
+                                                    <img src="assets/images/book-1.jpg" alt="">
                                                 </a>
                                             </figure>
                                             <!-- Item title -->
-                                            <h4 class="item_title item_title__other_books"><a href="book-1.html">
-												Eredità di guerra
-											</a></h4>
+                                            <h4 class="item_title item_title__other_books">
+                                                <a href="book-1.html">
+                                                    
+                                                        
+                                                            Eredità di guerra
+                                                        
+                                                    
+                                                </a>
+                                            </h4>
                                             <!-- Introtext -->
                                             <div class="item_introtext">
-                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Di </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur </span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
                                             </div>
+                                        </div>
                                     </article>
                                     <article class="col-sm-4 item item_num1 item__module  " id="item_174">
 
@@ -622,17 +603,24 @@
                                             <!-- Intro Image -->
                                             <figure class="item_img img-intro img-intro__">
                                                 <a href="book-2.html">
-                                                    <img src="assets/images/book-2.jpg" alt>
+                                                    <img src="assets/images/book-2.jpg" alt="">
                                                 </a>
                                             </figure>
                                             <!-- Item title -->
-                                            <h4 class="item_title item_title__other_books"><a href="book-2.html">
-												Il nuovo regno
-											</a></h4>
+                                            <h4 class="item_title item_title__other_books">
+                                                <a href="book-2.html">
+                                                    
+                                                        
+                                                            Il nuovo regno
+                                                        
+                                                    
+                                                </a>
+                                            </h4>
                                             <!-- Introtext -->
                                             <div class="item_introtext">
-                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Di </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur </span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
                                             </div>
+                                        </div>
                                     </article>
                                     <article class="col-sm-4 item item_num2 item__module  lastItem" id="item_175">
 
@@ -640,17 +628,24 @@
                                             <!-- Intro Image -->
                                             <figure class="item_img img-intro img-intro__">
                                                 <a href="book-3.html">
-                                                    <img src="assets/images/book-3.jpg" alt>
+                                                    <img src="assets/images/book-3.jpg" alt="">
                                                 </a>
                                             </figure>
                                             <!-- Item title -->
-                                            <h4 class="item_title item_title__other_books"><a href="book-3.html">
-												Re dei Re
-											</a></h4>
+                                            <h4 class="item_title item_title__other_books">
+                                                <a href="book-3.html">
+                                                    
+                                                        
+                                                            Re dei Re
+                                                        
+                                                    
+                                                </a>
+                                            </h4>
                                             <!-- Introtext -->
                                             <div class="item_introtext">
-                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Di </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur </span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
                                             </div>
+                                        </div>
                                     </article>
                                     <article class="col-sm-4 item item_num2 item__module  lastItem" id="item_175">
 
@@ -658,17 +653,24 @@
                                             <!-- Intro Image -->
                                             <figure class="item_img img-intro img-intro__">
                                                 <a href="book-4.html">
-                                                    <img src="assets/images/book-4.jpg" alt>
+                                                    <img src="assets/images/book-4.jpg" alt="">
                                                 </a>
                                             </figure>
                                             <!-- Item title -->
-                                            <h4 class="item_title item_title__other_books"><a href="book-4.html">
-												Il leone d'oro
-											</a></h4>
+                                            <h4 class="item_title item_title__other_books">
+                                                <a href="book-4.html">
+                                                    
+                                                        
+                                                            Il leone d'oro
+                                                        
+                                                    
+                                                </a>
+                                            </h4>
                                             <!-- Introtext -->
                                             <div class="item_introtext">
-                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Di </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur </span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
                                             </div>
+                                        </div>
                                     </article>
                                     <article class="col-sm-4 item item_num2 item__module  lastItem" id="item_175">
 
@@ -676,17 +678,24 @@
                                             <!-- Intro Image -->
                                             <figure class="item_img img-intro img-intro__">
                                                 <a href="book-5.html">
-                                                    <img src="assets/images/book-5.jpg" alt>
+                                                    <img src="assets/images/book-5.jpg" alt="">
                                                 </a>
                                             </figure>
                                             <!-- Item title -->
-                                            <h4 class="item_title item_title__other_books"><a href="book-5.html">
-												La notte del predatore
-											</a></h4>
+                                            <h4 class="item_title item_title__other_books">
+                                                <a href="book-5.html">
+                                                    
+                                                        
+                                                            La notte del predatore
+                                                        
+                                                    
+                                                </a>
+                                            </h4>
                                             <!-- Introtext -->
                                             <div class="item_introtext">
-                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+                                                <h6><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Di </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur </span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
                                             </div>
+                                        </div>
                                     </article>
                                     <article class="col-sm-4 item item_num2 item__module  lastItem" id="item_175">
 
@@ -694,160 +703,194 @@
                                             <!-- Intro Image -->
                                             <figure class="item_img img-intro img-intro__">
                                                 <a href="book-6.html">
-                                                    <img src="assets/images/book-6.jpg" alt>
+                                                    <img src="assets/images/book-6.jpg" alt="">
                                                 </a>
                                             </figure>
                                             <!-- Item title -->
-                                            <h4 class="item_title item_title__other_books"><a href="book-6.html">
-												Grido di guerra
-											</a></h4>
+                                            <h4 class="item_title item_title__other_books">
+                                                <a href="book-6.html">
+                                                    
+                                                        
+                                                            Griglia di guerra
+                                                        
+                                                    
+                                                </a>
+                                            </h4>
                                             <!-- Introtext -->
                                             <div class="item_introtext">
                                                 <h6>
-                                                    </brt><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">By</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur</span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
+                                                    <span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Di </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">Wilbur </span>                                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Smith</span></h6>
                                             </div>
+                                        </div>
                                     </article>
-                                    </div>
-                                    <div class="clearfix"></div>
-
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
-                                    </div>
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                <div class="clearfix"></div>
 
                             </div>
-
-                            <!-- FOOTER -->
-                            <footer id="t3-footer" class="wrap t3-footer">
-
-                                <div class="footer-1 wrap t3-sl t3-sl-footer-1 ">
-                                    <div class="container ">
-                                        <div class="row">
-                                            <div class="moduletable about_footer  col-sm-4">
-                                                <div class="module_container">
-                                                    <div class="mod-article-single mod-article-single__about_footer" id="module_254">
-                                                        <div class="item__module" id="item_169">
-                                                            <!-- Intro Image -->
-                                                            <figure class="item_img img-intro img-intro__">
-                                                                <img src="assets/images/logo.png" alt>
-                                                            </figure>
-
-                                                            <!-- Intro Text -->
-                                                            <div class="item_introtext">
-                                                                <p>South African writer whose novels about lionhearted heroes, greedy family dynasties, passionate lovers, cold-blooded pirates and big game hunters have sold over 140 million copies in 30 languages.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="moduletable footer_contacts  col-sm-3 col-sm-offset-2">
-                                                <div class="module_container">
-                                                    <div class="page_header">
-                                                        <h4 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Get</span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">in</span>
-                                                            <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">Touch</span>
-                                                        </h4>
-                                                    </div>
-
-                                                    <div class="custom footer_contacts">
-                                                        <i class="linearicons-telephone"></i>
-                                                        <div class="address">
-                                                            <p class="tel"><a href="tel:+390646991">+39 06 46991</a></p>
-                                                            <p><a href="mailto:info@anglicanbookstore.com">info@anglicanbookstore.com</a></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="moduletable footer_contacts  col-sm-3">
-                                                <div class="module_container">
-                                                    <div class="page_header">
-                                                        <h4 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Address</span></h4>
-                                                    </div>
-
-                                                    <div class="custom footer_contacts">
-                                                        <i class="linearicons-map-marker"></i>
-                                                        <div class="address">
-                                                            <p>Piazza del Quirinale, 00187 Roma RM, Italia</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-                                <div class="wrap t3-sl t3-sl-footer ">
-                                    <div class="container">
-                                        <div class="row">
-
-
-
-                                            <div class="copyright col-sm-12">
-                                                <div class="bord"></div>
-                                                <span class="siteName">Wilbur Smith</span>
-                                                <span class="copy">&copy;</span>
-                                                <span class="year">2022.</span>
-                                                <a class="privacy_link" rel="license" href="privacy.html">
-	            Privacy Policy	        </a>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-                            </footer>
-                            <!-- //FOOTER -->
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-                        <div id="back-top">
-                            <a href="#"><span></span></a>
-                        </div>
-                        <div class="container">
-                            <div id="modal" class="modal fade loginPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                <button type="button" class="close modalClose" data-dismiss="modal">×</button>
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="moduletable modal_search ">
-                                            <div class="module_container">
-                                                <div role="search" class="mod-search mod-search__modal_search">
-                                                    <form action="/joomla_prod-13675/index.php" method="post" class="navbar-form">
-                                                        <label for="searchword" class="element-invisible">Search ...</label> <input id="searchword" name="searchword" maxlength="200" class="inputbox mod-search_searchword" type="text" size="20" placeholder="Search ..."
-                                                            required> <button class="button btn btn-primary" onclick="this.form.searchword.focus();"><i class="fa fa-search"></i> </button> <input type="hidden" name="task" value="search">
-                                                        <input type="hidden" name="option" value="com_search">
-                                                        <input type="hidden" name="Itemid" value="101">
-                                                    </form>
-                                                    <!-- <i class="fa fa-times"></i> -->
-                                                </div>
-                                            </div>
-                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="t3-footer" class="wrap t3-footer">
+
+        <div class="footer-1 wrap t3-sl t3-sl-footer-1 ">
+            <div class="container ">
+                <div class="row">
+                    <div class="moduletable about_footer  col-sm-4">
+                        <div class="module_container">
+                            <div class="mod-article-single mod-article-single__about_footer" id="module_254">
+                                <div class="item__module" id="item_169">
+                                    <!-- Intro Image -->
+                                    <figure class="item_img img-intro img-intro__">
+                                        <img src="assets/images/logo.png" alt="">
+                                    </figure>
+
+                                    <!-- Intro Text -->
+                                    <div class="item_introtext">
+                                        <p>
+
+                                            Scrittore sudafricano i cui romanzi su eroi dal cuore di leone, avide dinastie familiari, amanti appassionati, pirati a sangue freddo e cacciatori di selvaggina hanno venduto oltre 140 milioni di copie in 30 lingue.
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="moduletable footer_contacts  col-sm-3 col-sm-offset-2">
+                        <div class="module_container">
+                            <div class="page_header">
+                                <h4 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first">Mettiti </span> <span class="item_title_part_1 item_title_part_even item_title_part_first_half">in </span>
+                                    <span class="item_title_part_2 item_title_part_odd item_title_part_second_half item_title_part_last">contatto</span>
+                                </h4>
+                            </div>
+
+                            <div class="custom footer_contacts">
+                                <i class="linearicons-telephone"></i>
+                                <div class="address">
+                                    <p class="tel">
+                                        <a href="tel:+390646991">
+                                            
+                                                +39 06 46991
+                                            
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <a href="mailto:info@anglicanbookstore.com">
+                                            
+                                                info@anglicanbookstore.com
+                                            
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="moduletable footer_contacts  col-sm-3">
+                        <div class="module_container">
+                            <div class="page_header">
+                                <h4 class="moduleTitle "><span class="item_title_part_0 item_title_part_odd item_title_part_first_half item_title_part_first item_title_part_last">Indirizzo</span></h4>
+                            </div>
+
+                            <div class="custom footer_contacts">
+                                <i class="linearicons-map-marker"></i>
+                                <div class="address">
+                                    <p>
+
+                                        Piazza del Quirinale, 00187 Roma RM, Italia
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="wrap t3-sl t3-sl-footer ">
+            <div class="container">
+                <div class="row">
+
+
+
+                    <div class="copyright col-sm-12">
+                        <div class="bord"></div>
+                        <span class="siteName">Wilbur Smith </span>
+                        <span class="copy">© </span>
+                        <span class="year">2022. </span>
+                        <a class="privacy_link" rel="license" href="privacy.html">
+                            
+                                
+                                    Informativa sulla privacy 
+                            
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </footer>
+    <!-- //FOOTER -->
+
+
+
+    <div id="back-top">
+        <a href="#"><span></span></a>
+    </div>
+    <div class="container">
+        <div id="modal" class="modal fade loginPopup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <button type="button" class="close modalClose" data-dismiss="modal">×</button>
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="moduletable modal_search ">
+                        <div class="module_container">
+                            <div role="search" class="mod-search mod-search__modal_search">
+                                <form action="/joomla_prod-13675/index.php" method="post" class="navbar-form">
+                                    <label for="searchword" class="element-invisible">Ricerca ...</label> <input id="searchword" name="searchword" maxlength="200" class="inputbox mod-search_searchword" type="text" size="20" placeholder="Ricerca ..." required="">                                    <button class="button btn btn-primary" onclick="this.form.searchword.focus();"><i class="fa fa-search"></i> </button> <input type="hidden" name="task" value="search">
+                                    <input type="hidden" name="option" value="com_search">
+                                    <input type="hidden" name="Itemid" value="101">
+                                </form>
+                                <!-- <i class="fa fa-times"></i> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
 
